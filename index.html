@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Right Hand Man</title>
+<meta name="description" content="Field and project management for production and pay apps. Designed by Joe Dane Lucero P.E.">
+<meta name="theme-color" content="#0b1f3a">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="Right Hand Man">
+<link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><link rel="icon" href="icons/favicon-32.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-route="home">
+<div id="splash" role="presentation"><img src="icons/logo.svg" alt="Right Hand Man logo"><h1>Right Hand Man</h1><p>Field &amp; project management</p><div class="cr">Designed by Joe Dane Lucero P.E.</div></div>
+<header class="top"><button id="homeBtn" class="hb" aria-label="Home" onclick="go('home')" hidden>🏠</button><div class="tt"><b id="title">Home</b><small id="pname"></small></div><span id="saved" class="saved" role="status" aria-live="polite"></span><span id="net" class="pill"></span><button id="srchBtn" class="hb" aria-label="Search everything" onclick="go('search')">🔎</button></header>
+<nav id="nav" aria-label="Main"><button data-nav="home"><span aria-hidden="true">🏠</span>Home</button><button data-nav="plans"><span aria-hidden="true">📐</span>Plans</button><button data-nav="takeoff"><span aria-hidden="true">🧮</span>Takeoff</button><button data-nav="daily"><span aria-hidden="true">📋</span>Daily</button><button data-nav="payapp"><span aria-hidden="true">💵</span>Pay</button><button data-nav="more" aria-haspopup="dialog"><span aria-hidden="true">☰</span>More</button>
+<div class="navx"><button data-nav="co"><span aria-hidden="true">📝</span>CO / Quote</button><button data-nav="shop"><span aria-hidden="true">🔩</span>Shop Dwgs</button><button data-nav="standards"><span aria-hidden="true">📚</span>Standards</button><button data-nav="dash"><span aria-hidden="true">📈</span>Dashboard</button><button data-nav="rfis"><span aria-hidden="true">❓</span>RFIs</button><button data-nav="subs"><span aria-hidden="true">📑</span>Submittals</button><button data-nav="punch"><span aria-hidden="true">📌</span>Punch list</button><button data-nav="time"><span aria-hidden="true">⏱</span>Timecards</button><button data-nav="recv"><span aria-hidden="true">🚚</span>Receiving</button><button data-nav="safety"><span aria-hidden="true">🦺</span>Safety</button><button data-nav="weather"><span aria-hidden="true">🌧</span>Weather delays</button><button data-nav="lookahead"><span aria-hidden="true">📅</span>3-wk lookahead</button><button data-nav="docs"><span aria-hidden="true">📂</span>Documents</button><button data-nav="photos"><span aria-hidden="true">📷</span>Photo log</button><button data-nav="revcmp"><span aria-hidden="true">🔀</span>Rev compare</button><button data-nav="bid"><span aria-hidden="true">🧮</span>Bid tools</button><button data-nav="weld"><span aria-hidden="true">🔥</span>Welding</button><button data-nav="cons"><span aria-hidden="true">🧰</span>Consumables</button><button data-nav="orders"><span aria-hidden="true">🧾</span>Orders</button><button data-nav="baseline"><span aria-hidden="true">📊</span>Baseline costs</button><button data-nav="contacts"><span aria-hidden="true">📇</span>Address Book</button><button data-nav="projects"><span aria-hidden="true">📁</span>Projects</button><button data-nav="settings"><span aria-hidden="true">⚙️</span>Settings</button></div></nav>
+<button id="fab" aria-label="Quick add" aria-haspopup="dialog">＋</button>
+<main id="app" tabindex="-1" aria-busy="true"><div class="skel" aria-hidden="true"><i class="s1"></i><i></i><i></i><i class="s2"></i></div></main>
+<button id="primary" class="primary" hidden></button>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="js/calc.js"></script><script src="js/calc_trades.js"></script><script src="js/calc_est.js"></script><script src="js/rules.js"></script><script src="js/weld.js"></script><script src="js/consum.js"></script><script src="js/term.js"></script><script src="js/types.js"></script><script src="js/db.js"></script><script src="js/plans.js"></script><script src="js/app.js"></script><script src="js/app2.js"></script><script src="js/app3.js"></script><script src="js/pdfx.js"></script><script src="js/est.js"></script><script src="js/ux.js"></script><script src="js/rulesui.js"></script><script src="js/orders.js"></script><script src="js/baseline.js"></script><script src="js/calc_field.js"></script><script src="js/xlsx.js"></script><script src="js/field.js"></script><script src="js/bid.js"></script><script src="js/revcmp.js"></script><script src="js/weldui.js"></script>
+<script>
+(async () => { applyModes(); const show = on => { const n = $('#net'); n.textContent = on ? '' : 'Offline'; n.hidden = on; };
+  // navigator.onLine is unreliable (iOS, no-signal, captive Wi-Fi): confirm with a tiny network-only probe
+  const net = async () => { if (!navigator.onLine) return show(false); try { const c = new AbortController(), t = setTimeout(() => c.abort(), 4000); const r = await fetch('manifest.json?probe=' + Date.now(), {cache:'no-store', signal:c.signal}); clearTimeout(t); show(r.ok); } catch (e) { show(false); } };
+  addEventListener('online', net); addEventListener('offline', net); net(); setInterval(net, 30000);
+  try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch (e) {}
+  const pid = localStorage.getItem('rhm_pid'); if (pid && await DB.get('projects', pid)) await setProject(pid); else await setProject(null);
+  const r = (location.hash || '#home').slice(1); await go((await recoverCheck()) ? 'home' : ROUTES[r] && !['project','client'].includes(r) ? r : 'home');
+  setTimeout(() => { $('#splash').classList.add('gone'); tutorial(); }, 900);
+  if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('sw.js').catch(() => {}); })();
+window.RHMAPP = { APP, PL, DB, go, SET, RHM, setProject };
+</script>
+</body>
+</html>

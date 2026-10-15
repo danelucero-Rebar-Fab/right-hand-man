@@ -1,0 +1,1489 @@
+{
+ "verified": "2026-10-15",
+ "note": "Summaries written for Right Hand Man. Item/section numbers and titles are taken from the official documents; the summaries are paraphrased, not copied. Always read the governing edition and the project's special provisions before relying on a summary. Oilfield/mechanical/underground entries added 2026-10-15: official pages checked (OSHA and Texas statute pages read; ASME, API, AWS, AWWA, ASTM, LII and RRC pages returned HTTP 200; eCFR pages answer 200 to browsers but block automated readers; MSS blocks automated checks - confirmed via search index).",
+ "sources": {
+  "txdot24": {
+   "name": "TxDOT 2024 Standard Specifications for Construction and Maintenance of Highways, Streets, and Bridges",
+   "url": "https://www.txdot.gov/business/resources/txdot-specifications/2024-standard-specifications.html",
+   "pdf": "https://www.txdot.gov/content/dam/docs/specifications/2024/spec-book-0924.pdf"
+  },
+  "nctcog": {
+   "name": "NCTCOG Public Works Construction Standards - North Central Texas, Amended Fifth Edition (2023) + 2026 amendments (purchased PDF, copyrighted)",
+   "url": "https://www.nctcog.org/envir/public-works/construction-standards"
+  },
+  "far": {
+   "name": "Federal Acquisition Regulation (acquisition.gov)",
+   "url": "https://www.acquisition.gov/far/part-22"
+  },
+  "dol": {
+   "name": "U.S. DOL Wage & Hour Division - Davis-Bacon and Related Acts",
+   "url": "https://www.dol.gov/agencies/whd/government-contracts/construction"
+  },
+  "sam": {
+   "name": "SAM.gov Wage Determinations",
+   "url": "https://sam.gov/content/wage-determinations"
+  },
+  "ecfr29": {
+   "name": "29 CFR Part 5 (eCFR)",
+   "url": "https://www.ecfr.gov/current/title-29/subtitle-A/part-5"
+  },
+  "ufgs": {
+   "name": "WBDG Unified Facilities Guide Specifications (UFGS)",
+   "url": "https://www.wbdg.org/dod/ufgs"
+  },
+  "fhwa": {
+   "name": "FHWA Federal Lands FP-24 Standard Specifications",
+   "url": "https://highways.dot.gov/federal-lands/specs"
+  },
+  "fhwab": {
+   "name": "FHWA Bridges & Structures",
+   "url": "https://www.fhwa.dot.gov/bridge/"
+  },
+  "aia": {
+   "name": "AIA Contract Documents (G702/G703 are licensed forms)",
+   "url": "https://www.aiacontracts.com/"
+  },
+  "api650": {
+   "name": "API Std 650 Welded Tanks for Oil Storage, 13th Ed. (API)",
+   "url": "https://www.api.org/products-and-services/standards/important-standards-announcements/standard650"
+  },
+  "api1104": {
+   "name": "API Std 1104 Welding of Pipelines and Related Facilities, 22nd Ed. (API)",
+   "url": "https://www.api.org/products-and-services/standards/important-standards-announcements/1104"
+  },
+  "apicat": {
+   "name": "API Standards Digital Catalog (API)",
+   "url": "https://www.api.org/products-and-services/standards/digital-catalog"
+  },
+  "b314": {
+   "name": "ASME B31.4 Pipeline Transportation Systems for Liquids and Slurries",
+   "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-4-pipeline-transportation-systems-liquids-slurries"
+  },
+  "b318": {
+   "name": "ASME B31.8 Gas Transmission and Distribution Piping Systems",
+   "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-8-gas-transmission-distribution-piping-systems"
+  },
+  "b311": {
+   "name": "ASME B31.1 Power Piping",
+   "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping"
+  },
+  "b313": {
+   "name": "ASME B31.3 Process Piping",
+   "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping"
+  },
+  "asme9": {
+   "name": "ASME BPVC Section IX Welding, Brazing and Fusing Qualifications",
+   "url": "https://www.asme.org/codes-standards/find-codes-standards/bpvc-ix-bpvc-section-ix-welding-brazing-fusing-qualifications"
+  },
+  "b3610": {
+   "name": "ASME B36.10 Welded and Seamless Wrought Steel Pipe",
+   "url": "https://www.asme.org/codes-standards/find-codes-standards/b36-10-welded-seamless-wrought-steel-pipe"
+  },
+  "awsd11": {
+   "name": "AWS D1.1/D1.1M:2025-AMD1 Structural Welding Code - Steel",
+   "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
+  },
+  "mss58": {
+   "name": "ANSI/MSS SP-58 Pipe Hangers and Supports (MSS; 2025 edition current)",
+   "url": "https://msshq.org/page/SP58"
+  },
+  "cfr192": {
+   "name": "49 CFR Part 192 - Transportation of Natural and Other Gas by Pipeline (eCFR)",
+   "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-192"
+  },
+  "cfr195": {
+   "name": "49 CFR Part 195 - Transportation of Hazardous Liquids by Pipeline (eCFR)",
+   "url": "https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-D/part-195"
+  },
+  "cfr112": {
+   "name": "40 CFR Part 112 - Oil Pollution Prevention (SPCC) (eCFR)",
+   "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-112"
+  },
+  "rrc38": {
+   "name": "16 TAC §3.8 Water Protection (Statewide Rule 8) - LII copy",
+   "url": "https://www.law.cornell.edu/regulations/texas/16-Tex-Admin-Code-SS-3-8"
+  },
+  "rrc313": {
+   "name": "16 TAC §3.13 Casing, Cementing, Drilling, Well Control and Completion (Statewide Rule 13) - LII copy",
+   "url": "https://www.law.cornell.edu/regulations/texas/16-Tex-Admin-Code-SS-3-13"
+  },
+  "rrcch4": {
+   "name": "RRC 16 TAC Chapter 4 (Oil and Gas Waste Management), effective July 1, 2025 (RRC PDF)",
+   "url": "https://www.rrc.texas.gov/media/hv2jy4ca/chapter4-all-effective-july1-2025.pdf"
+  },
+  "rrcog": {
+   "name": "Railroad Commission of Texas - Oil & Gas Division",
+   "url": "https://www.rrc.texas.gov/oil-and-gas/"
+  },
+  "osha119": {
+   "name": "OSHA 29 CFR 1910.119 Process Safety Management",
+   "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+  },
+  "osha651": {
+   "name": "OSHA 29 CFR 1926.651 Specific Excavation Requirements",
+   "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.651"
+  },
+  "osha652": {
+   "name": "OSHA 29 CFR 1926.652 Requirements for Protective Systems",
+   "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.652"
+  },
+  "oshaA": {
+   "name": "OSHA 1926 Subpart P Appendix A - Soil Classification",
+   "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926SubpartPAppA"
+  },
+  "oshaB": {
+   "name": "OSHA 1926 Subpart P Appendix B - Sloping and Benching",
+   "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926SubpartPAppB"
+  },
+  "txhs756": {
+   "name": "Texas Health & Safety Code Ch. 756, Subchapter C Trench Safety",
+   "url": "https://statutes.capitol.texas.gov/Docs/HS/htm/HS.756.htm"
+  },
+  "awwa": {
+   "name": "AWWA Standards List (C600-23, C900-22, C151-23)",
+   "url": "https://www.awwa.org/standards/standards-list/"
+  },
+  "d2321": {
+   "name": "ASTM D2321 Underground Installation of Thermoplastic Pipe for Sewers and Gravity-Flow Applications",
+   "url": "https://www.astm.org/d2321-20.html"
+  },
+  "d3034": {
+   "name": "ASTM D3034 Type PSM PVC Sewer Pipe and Fittings",
+   "url": "https://www.astm.org/d3034-21.html"
+  },
+  "f679": {
+   "name": "ASTM F679 PVC Large-Diameter Plastic Gravity Sewer Pipe and Fittings",
+   "url": "https://www.astm.org/f0679-21.html"
+  },
+  "tac217": {
+   "name": "30 TAC Chapter 217 Design Criteria for Domestic Wastewater Systems (TCEQ) - LII copy",
+   "url": "https://www.law.cornell.edu/regulations/texas/title-30/part-1/chapter-217"
+  },
+  "tac290": {
+   "name": "30 TAC Chapter 290 Public Drinking Water (TCEQ) - LII copy",
+   "url": "https://www.law.cornell.edu/regulations/texas/title-30/part-1/chapter-290"
+  }
+ },
+ "items": [
+  {
+   "id": "tx-4",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 4",
+   "title": "Scope of Work",
+   "tags": [
+    "change",
+    "extra work",
+    "differing site conditions",
+    "claims",
+    "CO"
+   ],
+   "summary": "Contract intent; Art. 4 Changes in the Work (Engineer may change quantities/character of work; written change orders); Art. 5 Differing Site Conditions (notify before disturbing the condition); Art. 6 Requests for Additional Compensation and Damages (written notice required before the work); Art. 7 Dispute or Claims Procedure.",
+   "use": "Cite Art. 4 for owner-directed changes, Art. 5 for unforeseen conditions, Art. 6 for the written-notice requirement on any extra-cost request."
+  },
+  {
+   "id": "tx-9",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 9",
+   "title": "Measurement and Payment",
+   "tags": [
+    "pay app",
+    "measurement",
+    "material on hand",
+    "extra work",
+    "force account",
+    "retainage"
+   ],
+   "summary": "Art. 1 Measurement of Quantities; Art. 2 Plans Quantity Measurement; Art. 3 Adjustment of Quantities; Art. 5 Progress Payments (monthly estimates); Art. 6 Payment for Material on Hand (MOH); Art. 7 Payment for Extra Work and Force Account Method (markups in 7.1); Art. 8 Retainage; Art. 9 Payment Provisions for Subcontractors; Art. 10 Final Payment.",
+   "use": "Stored-material billing -> Art. 6 MOH; T&M/force account tickets -> Art. 7; subcontractor prompt pay -> Art. 9."
+  },
+  {
+   "id": "tx-110",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 110",
+   "title": "Excavation",
+   "tags": [
+    "excavation",
+    "earthwork"
+   ],
+   "summary": "Roadway and channel excavation; measurement methods (final, original, vehicle) are set in the Item and the plans.",
+   "use": "Check which measurement method the plans call for before carrying bank vs. loose CY."
+  },
+  {
+   "id": "tx-132",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 132",
+   "title": "Embankment",
+   "tags": [
+    "embankment",
+    "fill",
+    "earthwork"
+   ],
+   "summary": "Embankment types, placement and density control; measured as shown on the plans.",
+   "use": "Fill quantities and compaction disputes."
+  },
+  {
+   "id": "tx-360",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 360",
+   "title": "Concrete Pavement",
+   "tags": [
+    "concrete",
+    "paving",
+    "rebar"
+   ],
+   "summary": "Concrete pavement construction including reinforcing and joints.",
+   "use": "Pavement reinforcing and dowel/tie bar quantities."
+  },
+  {
+   "id": "tx-400",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 400",
+   "title": "Excavation and Backfill for Structures",
+   "tags": [
+    "excavation",
+    "backfill",
+    "structures"
+   ],
+   "summary": "Structure excavation, shoring, backfill and cement-stabilized backfill for structures.",
+   "use": "Extra excavation or unsuitable material below structures."
+  },
+  {
+   "id": "tx-401",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 401",
+   "title": "Flowable Backfill",
+   "tags": [
+    "backfill",
+    "flowable fill"
+   ],
+   "summary": "Flowable backfill materials and placement.",
+   "use": "Substitution of flowable fill for compacted backfill."
+  },
+  {
+   "id": "tx-416",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 416",
+   "title": "Drilled Shaft Foundations",
+   "tags": [
+    "drilled shaft",
+    "pier",
+    "rebar",
+    "concrete"
+   ],
+   "summary": "Drilled shaft construction, reinforcing cages, concrete placement; measured by the foot of shaft as shown.",
+   "use": "Pier/shaft cage takeoff; overdrilled length as extra work."
+  },
+  {
+   "id": "tx-420",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 420",
+   "title": "Concrete Substructures",
+   "tags": [
+    "concrete",
+    "structures",
+    "substructure"
+   ],
+   "summary": "Construction of concrete substructure elements (bents, caps, columns, abutments, etc.).",
+   "use": "Concrete structure quantities; reinforcing is subsidiary per Item 440."
+  },
+  {
+   "id": "tx-421",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 421",
+   "title": "Hydraulic Cement Concrete",
+   "tags": [
+    "concrete",
+    "mix design"
+   ],
+   "summary": "Concrete materials, classes, mix design and testing for pavements and structures.",
+   "use": "Concrete class/strength questions; concrete supplied by others on Rebar-Fab quotes."
+  },
+  {
+   "id": "tx-422",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 422",
+   "title": "Concrete Superstructures",
+   "tags": [
+    "concrete",
+    "deck",
+    "superstructure",
+    "rebar"
+   ],
+   "summary": "Bridge decks, slabs and other cast-in-place superstructure elements.",
+   "use": "Deck reinforcing takeoff and pour sequencing."
+  },
+  {
+   "id": "tx-424",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 424",
+   "title": "Precast Concrete Structural Members (Fabrication)",
+   "tags": [
+    "precast"
+   ],
+   "summary": "Fabrication requirements for precast structural members.",
+   "use": "Precast vs. cast-in-place substitutions."
+  },
+  {
+   "id": "tx-432",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 432",
+   "title": "Riprap",
+   "tags": [
+    "riprap",
+    "concrete",
+    "rebar"
+   ],
+   "summary": "Concrete and stone riprap.",
+   "use": "Riprap reinforcing (often welded wire or bars as shown)."
+  },
+  {
+   "id": "tx-440",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 440",
+   "title": "Reinforcement for Concrete",
+   "tags": [
+    "rebar",
+    "reinforcement",
+    "A615",
+    "epoxy",
+    "laps",
+    "splices"
+   ],
+   "summary": "Materials (bar steel, epoxy coating, mechanical couplers), bending, placing, splicing and tying of reinforcement. Measurement and payment: not paid directly; subsidiary to the pertinent concrete Items.",
+   "use": "Bar substitutions, lap lengths, coating repair. Because rebar is subsidiary, extra rebar is justified through the concrete Item or a change order under Item 4."
+  },
+  {
+   "id": "tx-441",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 441",
+   "title": "Steel Structures",
+   "tags": [
+    "steel",
+    "structures"
+   ],
+   "summary": "Fabrication and erection of structural steel.",
+   "use": "Steel takeoff by weight."
+  },
+  {
+   "id": "tx-442",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 442",
+   "title": "Metal for Structures",
+   "tags": [
+    "steel",
+    "metal"
+   ],
+   "summary": "Material requirements for metals in structures.",
+   "use": "Material grade questions."
+  },
+  {
+   "id": "tx-446",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 446",
+   "title": "Field Cleaning and Painting Steel",
+   "tags": [
+    "coatings",
+    "painting"
+   ],
+   "summary": "Surface preparation and coating systems for steel.",
+   "use": "Coatings takeoff and touch-up scope."
+  },
+  {
+   "id": "tx-448",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 448",
+   "title": "Structural Field Welding",
+   "tags": [
+    "welding"
+   ],
+   "summary": "Field welding procedures, welder qualification and inspection.",
+   "use": "Field weld extra work and qualification records."
+  },
+  {
+   "id": "tx-450",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 450",
+   "title": "Railing",
+   "tags": [
+    "railing",
+    "rebar",
+    "rail"
+   ],
+   "summary": "Concrete and metal bridge railing types.",
+   "use": "Type C / T-series rail reinforcing."
+  },
+  {
+   "id": "tx-462",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 462",
+   "title": "Concrete Box Culverts and Drains",
+   "tags": [
+    "culvert",
+    "box",
+    "rebar",
+    "concrete"
+   ],
+   "summary": "Cast-in-place and precast box culverts.",
+   "use": "Box culvert reinforcing per standard sheets."
+  },
+  {
+   "id": "tx-464",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 464",
+   "title": "Reinforced Concrete Pipe",
+   "tags": [
+    "pipe",
+    "piping",
+    "RCP"
+   ],
+   "summary": "RCP furnishing and installation.",
+   "use": "Pipe runs in LF."
+  },
+  {
+   "id": "tx-465",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 465",
+   "title": "Junction Boxes, Manholes, and Inlets",
+   "tags": [
+    "inlet",
+    "manhole",
+    "junction box",
+    "rebar"
+   ],
+   "summary": "Construction of drainage structures.",
+   "use": "Inlet/manhole reinforcing counts."
+  },
+  {
+   "id": "tx-466",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 466",
+   "title": "Headwalls and Wingwalls",
+   "tags": [
+    "headwall",
+    "wingwall",
+    "rebar"
+   ],
+   "summary": "Headwall and wingwall construction.",
+   "use": "Standard-sheet reinforcing."
+  },
+  {
+   "id": "tx-496",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 496",
+   "title": "Removing Structures",
+   "tags": [
+    "demolition",
+    "removal"
+   ],
+   "summary": "Removal and disposal of existing structures.",
+   "use": "Unplanned removals as extra work."
+  },
+  {
+   "id": "tx-529",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 529",
+   "title": "Concrete Curb, Gutter, and Combined Curb and Gutter",
+   "tags": [
+    "curb",
+    "gutter",
+    "concrete"
+   ],
+   "summary": "Curb and gutter construction.",
+   "use": "Curb LF and dowels."
+  },
+  {
+   "id": "tx-531",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 531",
+   "title": "Sidewalks",
+   "tags": [
+    "sidewalk",
+    "concrete",
+    "rebar"
+   ],
+   "summary": "Concrete sidewalks, ramps and reinforcing.",
+   "use": "Sidewalk SF/rebar."
+  },
+  {
+   "id": "tx-618",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 618",
+   "title": "Conduit",
+   "tags": [
+    "electrical",
+    "conduit",
+    "ductbank"
+   ],
+   "summary": "Conduit installation methods and types.",
+   "use": "Conduit LF takeoff."
+  },
+  {
+   "id": "tx-620",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 620",
+   "title": "Electrical Conductors",
+   "tags": [
+    "electrical",
+    "wire"
+   ],
+   "summary": "Conductor installation.",
+   "use": "Wire LF."
+  },
+  {
+   "id": "tx-656",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Item 656",
+   "title": "Foundations for Traffic Control Devices",
+   "tags": [
+    "foundation",
+    "pier",
+    "rebar"
+   ],
+   "summary": "Drilled foundations for signs and signals.",
+   "use": "Sign/signal foundation cages."
+  },
+  {
+   "id": "far-22.4",
+   "src": "far",
+   "agency": "Federal",
+   "code": "FAR Subpart 22.4",
+   "title": "Labor Standards for Contracts Involving Construction",
+   "tags": [
+    "davis-bacon",
+    "federal",
+    "wages",
+    "payroll",
+    "T&M"
+   ],
+   "summary": "Construction Wage Rate Requirements (formerly Davis-Bacon) apply to federal construction contracts over $2,000; weekly certified payrolls (22.406-6); wage determinations (22.404); Copeland Act (22.403-2); CWHSSA overtime at 1.5x over 40 hrs (22.403-3).",
+   "use": "Labor rates on federal T&M tickets must be at or above the wage determination; keep certified payroll backup."
+  },
+  {
+   "id": "far-52.243-4",
+   "src": "far",
+   "agency": "Federal",
+   "code": "FAR 52.243-4",
+   "title": "Changes (construction clause)",
+   "tags": [
+    "federal",
+    "change",
+    "CO",
+    "extra work"
+   ],
+   "summary": "Contracting Officer may order changes in the work; contractor must assert its right to an adjustment in writing within the clause's time limit (see clause text).",
+   "use": "Federal CO justification: cite the written order or constructive change and the notice date.",
+   "url": "https://www.acquisition.gov/far/52.243-4"
+  },
+  {
+   "id": "far-52.236-2",
+   "src": "far",
+   "agency": "Federal",
+   "code": "FAR 52.236-2",
+   "title": "Differing Site Conditions",
+   "tags": [
+    "federal",
+    "differing site conditions",
+    "extra work"
+   ],
+   "summary": "Prompt written notice of subsurface/latent conditions differing from the contract, or unusual unknown conditions, before they are disturbed.",
+   "use": "Unforeseen rock, water, utilities on federal work.",
+   "url": "https://www.acquisition.gov/far/52.236-2"
+  },
+  {
+   "id": "dbra",
+   "src": "dol",
+   "agency": "Federal",
+   "code": "Davis-Bacon and Related Acts (29 CFR 1, 3, 5)",
+   "title": "Prevailing wages on federally funded/assisted construction",
+   "tags": [
+    "davis-bacon",
+    "wages",
+    "federal",
+    "payroll"
+   ],
+   "summary": "Laborers and mechanics on covered contracts over $2,000 must be paid at least the locally prevailing wages and fringes set by DOL; CWHSSA overtime applies to prime contracts over $100,000. Note the 2024 N.D. Tex. injunction on three provisions of the 2023 rule (see DOL page).",
+   "use": "Check the wage determination on SAM.gov for the county and schedule (building/heavy/highway)."
+  },
+  {
+   "id": "cfr29-5",
+   "src": "ecfr29",
+   "agency": "Federal",
+   "code": "29 CFR Part 5",
+   "title": "Labor standards provisions for federally financed and assisted construction",
+   "tags": [
+    "davis-bacon",
+    "payroll",
+    "federal"
+   ],
+   "summary": "Contract clauses, payroll and record requirements, withholding.",
+   "use": "Certified payroll and withholding disputes."
+  },
+  {
+   "id": "ufgs-03-20-00",
+   "src": "ufgs",
+   "agency": "USACE/UFGS",
+   "code": "UFGS 03 20 00",
+   "title": "Concrete Reinforcing",
+   "tags": [
+    "rebar",
+    "federal",
+    "USACE",
+    "reinforcement"
+   ],
+   "summary": "DoD guide spec for reinforcing steel: submittals, materials, fabrication and placement. Project-edited versions govern.",
+   "use": "USACE/NAVFAC/AF rebar submittals and placing tolerances."
+  },
+  {
+   "id": "ufgs-03-30-00",
+   "src": "ufgs",
+   "agency": "USACE/UFGS",
+   "code": "UFGS 03 30 00",
+   "title": "Cast-in-Place Concrete",
+   "tags": [
+    "concrete",
+    "federal",
+    "USACE"
+   ],
+   "summary": "DoD guide spec for cast-in-place concrete.",
+   "use": "Federal concrete quality requirements."
+  },
+  {
+   "id": "ufgs-01-20-00",
+   "src": "ufgs",
+   "agency": "USACE/UFGS",
+   "code": "UFGS 01 20 00",
+   "title": "Price and Payment Procedures",
+   "tags": [
+    "pay app",
+    "federal",
+    "USACE",
+    "measurement"
+   ],
+   "summary": "DoD guide section for schedule of prices, payment and measurement procedures.",
+   "use": "Federal pay application format and SOV backup."
+  },
+  {
+   "id": "fp24",
+   "src": "fhwa",
+   "agency": "FHWA",
+   "code": "FP-24",
+   "title": "Standard Specifications for Construction of Roads and Bridges on Federal Highway Projects",
+   "tags": [
+    "FHWA",
+    "federal",
+    "highway",
+    "rebar",
+    "concrete"
+   ],
+   "summary": "Federal Lands Highway standard specs (2024 edition, errata updated 9/15/2026); Section 554 covers reinforcing steel and Section 552 structural concrete.",
+   "use": "Federal Lands / Forest Service road and bridge work."
+  },
+  {
+   "id": "aia-g702",
+   "src": "aia",
+   "agency": "Industry",
+   "code": "AIA G702/G703",
+   "title": "Application and Certificate for Payment / Continuation Sheet",
+   "tags": [
+    "pay app",
+    "retainage",
+    "SOV"
+   ],
+   "summary": "The common pay-app format. Right Hand Man produces a G702/G703-STYLE summary and continuation sheet; the official AIA forms are licensed - if a client requires the actual AIA document, fill that form with these numbers.",
+   "use": "Client pay-app format."
+  },
+  {
+   "id": "nct-100",
+   "src": "nctcog",
+   "agency": "NCTCOG",
+   "code": "Division 100",
+   "title": "General Provisions",
+   "tags": [
+    "municipal",
+    "change",
+    "pay app",
+    "measurement",
+    "extra work",
+    "CO"
+   ],
+   "summary": "General conditions, measurement and payment, and change procedures for municipal public works (Division 100 amended in 2026).",
+   "use": "Cite the general-provision article for changes/extra work; confirm the city's adoption and amendments (see NCTCOG adoption list)."
+  },
+  {
+   "id": "nct-200",
+   "src": "nctcog",
+   "agency": "NCTCOG",
+   "code": "Division 200",
+   "title": "Site Protection and Preparation",
+   "tags": [
+    "municipal",
+    "excavation",
+    "erosion"
+   ],
+   "summary": "Site preparation, protection and erosion control.",
+   "use": "Clearing/erosion scope questions."
+  },
+  {
+   "id": "nct-300",
+   "src": "nctcog",
+   "agency": "NCTCOG",
+   "code": "Division 300",
+   "title": "Roadway Construction",
+   "tags": [
+    "municipal",
+    "paving",
+    "concrete",
+    "rebar",
+    "curb",
+    "sidewalk"
+   ],
+   "summary": "Roadway paving including concrete pavement and its reinforcement (Division 300 amended in 2026).",
+   "use": "Municipal paving rebar and concrete; pair with Std. Drawings Division 2000."
+  },
+  {
+   "id": "nct-500",
+   "src": "nctcog",
+   "agency": "NCTCOG",
+   "code": "Division 500",
+   "title": "Underground Conduit Construction and Appurtenances",
+   "tags": [
+    "municipal",
+    "piping",
+    "pipe",
+    "excavation",
+    "backfill",
+    "trench"
+   ],
+   "summary": "Underground Conduit Construction and Appurtenances (water, wastewater, storm): pipe materials, embedment and backfill, appurtenances, boring/tunneling, testing. Standard drawings Div. 3000 General Underground Conduit, 4000 Water, 5000 Wastewater, 6000 Stormwater. 2026 amendments revise Items 500 and 501. Copyrighted - read your purchased copy for section text.",
+   "use": "Pipe/trench extra depth or embedment changes.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "nct-700",
+   "src": "nctcog",
+   "agency": "NCTCOG",
+   "code": "Division 700",
+   "title": "Structures",
+   "tags": [
+    "municipal",
+    "concrete",
+    "rebar",
+    "structures",
+    "reinforcement"
+   ],
+   "summary": "Concrete structures, reinforcing steel and related structural work for municipal projects.",
+   "use": "Municipal structure rebar/concrete questions; check exact item numbers in the purchased edition."
+  },
+  {
+   "id": "nct-800",
+   "src": "nctcog",
+   "agency": "NCTCOG",
+   "code": "Division 800",
+   "title": "Miscellaneous Construction and Materials",
+   "tags": [
+    "municipal",
+    "materials"
+   ],
+   "summary": "Miscellaneous construction items and materials.",
+   "use": "Material substitutions."
+  },
+  {
+   "id": "api-650",
+   "src": "api650",
+   "agency": "API",
+   "code": "Std 650",
+   "title": "Welded Tanks for Oil Storage",
+   "tags": [
+    "tank",
+    "tank battery",
+    "welding",
+    "foundation"
+   ],
+   "summary": "Design, materials, fabrication, erection, inspection and testing of welded, vertical, cylindrical, aboveground steel tanks (uniformly supported bottoms, non-refrigerated, design temperature up to about 200 °F). Tank sizes are chosen by the purchaser; the standard sets the rules, not a catalog of sizes.",
+   "use": "Field-erected tank batteries and large storage tanks: cite for tank foundation tolerances, erection and hydrostatic testing called for in the tank spec. Many small production tanks are shop-built under API 12F instead - check the data sheet.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "api-12f",
+   "src": "apicat",
+   "agency": "API",
+   "code": "Spec 12F",
+   "title": "Shop Welded Tanks for Storage of Production Liquids",
+   "tags": [
+    "tank",
+    "tank battery",
+    "production"
+   ],
+   "summary": "Shop-fabricated, welded steel tanks of standard sizes for storing oil-field production liquids; listed in the API digital catalog.",
+   "use": "Typical tank battery tanks are bought to 12F. Your scope is usually setting, foundations/ring walls, containment and connections - quantity tanks as EA from the plan/equipment list.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "api-1104",
+   "src": "api1104",
+   "agency": "API",
+   "code": "Std 1104",
+   "title": "Welding of Pipelines and Related Facilities",
+   "tags": [
+    "welding",
+    "pipeline",
+    "flowline",
+    "NDE",
+    "x-ray"
+   ],
+   "summary": "Gas and arc welding of butt, fillet and socket welds in carbon and low-alloy steel pipelines and related facilities (new construction and in-service), including procedure and welder qualification, NDT methods (RT, MT, PT, UT, visual) and acceptance standards.",
+   "use": "Gathering lines/flowlines and pipeline tie-ins: weld count and NDE percentage come from the project spec; repairs/cut-outs from NDE rejects are a CO only when the cause is owner-side (e.g., owner-furnished pipe defects).",
+   "types": [
+    "oilfield",
+    "mechanical"
+   ]
+  },
+  {
+   "id": "api-2a",
+   "src": "apicat",
+   "agency": "API",
+   "code": "RP 2A-WSD",
+   "title": "Planning, Designing and Constructing Fixed Offshore Platforms - Working Stress Design",
+   "tags": [
+    "offshore",
+    "platform",
+    "structural"
+   ],
+   "summary": "Recommended practice for fixed offshore steel platforms (planning, design, fabrication, installation). Listed in the API digital catalog.",
+   "use": "Rare on land jobs; cited when a skid/structure spec borrows its tubular-joint or fabrication rules. Quantify steel by weight with the Structural steel template.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "api-5l",
+   "src": "apicat",
+   "agency": "API",
+   "code": "Spec 5L",
+   "title": "Line Pipe",
+   "tags": [
+    "pipe",
+    "line pipe",
+    "material"
+   ],
+   "summary": "Seamless and welded steel line pipe (PSL 1 / PSL 2 product levels, grades such as B, X42-X70).",
+   "use": "Steel gathering/flowline pipe callouts (size x wall x grade, PSL). Use the pipe size/schedule table for weight per foot; confirm wall from the line list.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "asme-b314",
+   "src": "b314",
+   "agency": "ASME",
+   "code": "B31.4",
+   "title": "Pipeline Transportation Systems for Liquids and Slurries",
+   "tags": [
+    "pipeline",
+    "hydrotest",
+    "liquid",
+    "crude",
+    "produced water"
+   ],
+   "summary": "Design, materials, construction, assembly, inspection, testing, operation and maintenance of liquid pipeline systems (crude, products, NGL, CO2, produced water and slurries) between production/terminal facilities.",
+   "use": "Liquid gathering/transfer lines: hydrotest pressure, hold time and test records per the project spec referencing B31.4 (and 49 CFR 195 if PHMSA-regulated).",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "asme-b318",
+   "src": "b318",
+   "agency": "ASME",
+   "code": "B31.8",
+   "title": "Gas Transmission and Distribution Piping Systems",
+   "tags": [
+    "pipeline",
+    "gas",
+    "class location",
+    "hydrotest"
+   ],
+   "summary": "Gas transmission, gathering and distribution piping: design by location class, materials, welding, testing and operation.",
+   "use": "Gas gathering lines and compressor station yard piping (outside B31.3 limits). Class location drives wall thickness and test pressure - from the design, never assumed.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "phmsa-192",
+   "src": "cfr192",
+   "agency": "PHMSA",
+   "code": "49 CFR 192",
+   "title": "Transportation of Natural and Other Gas by Pipeline",
+   "tags": [
+    "gas",
+    "pipeline",
+    "PHMSA",
+    "test",
+    "operator qualification"
+   ],
+   "summary": "Federal minimum safety standards for gas pipelines: design, materials, welding (Subpart E references API 1104 / ASME IX qualified procedures), construction, testing (Subpart J), operator qualification (Subpart N) and regulated gathering lines.",
+   "use": "Regulated gas lines: welder qualification, test records and OQ for covered tasks are required paperwork; schedule time for them.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "phmsa-195",
+   "src": "cfr195",
+   "agency": "PHMSA",
+   "code": "49 CFR 195",
+   "title": "Transportation of Hazardous Liquids by Pipeline",
+   "tags": [
+    "liquid",
+    "pipeline",
+    "PHMSA",
+    "hydrotest",
+    "195.304"
+   ],
+   "summary": "Federal minimum safety standards for hazardous-liquid and CO2 pipelines: design, construction, welding, pressure testing (Subpart E, e.g., §195.304 test pressure and duration), operation and maintenance.",
+   "use": "Regulated liquid lines: carry test water, fill/heat-up, hold and documentation time; cite Subpart E when the owner changes test requirements.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "rrc-sw8",
+   "src": "rrc38",
+   "agency": "Texas RRC",
+   "code": "16 TAC §3.8 (SWR 8)",
+   "title": "Water Protection - pits now under 16 TAC Ch. 4",
+   "tags": [
+    "pit",
+    "containment",
+    "liner",
+    "SWD",
+    "RRC",
+    "waste"
+   ],
+   "summary": "Statewide Rule 8 protects surface and subsurface water from oil and gas waste. Effective July 1, 2025 the pit authorization/registration and waste management rules moved to new 16 TAC Chapter 4, Subchapter A (Schedule A and B authorized pits, registration deadlines in 2026; basic sediment and flare pits no longer authorized).",
+   "use": "Pits, liners, containment and SWD facility work: confirm which Chapter 4 schedule/permit applies before quantifying liner and berm work; a permit-driven liner upgrade is a CO item.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "rrc-ch4",
+   "src": "rrcch4",
+   "agency": "Texas RRC",
+   "code": "16 TAC Ch. 4",
+   "title": "Oil and Gas Waste Management (effective July 1, 2025)",
+   "tags": [
+    "pit",
+    "recycling",
+    "liner",
+    "waste",
+    "SWD"
+   ],
+   "summary": "Subchapter A (new): oil and gas waste management, authorized pits, permits. Subchapter B (amended): commercial recycling - siting, minimum design and construction (e.g., liners, freeboard, run-on control, secondary containment for tanks) and financial security.",
+   "use": "Recycling pits and commercial facilities: design/construction minimums come from the permit + Chapter 4; quantify liners, berms and containment from the permitted drawings.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "rrc-sw13",
+   "src": "rrc313",
+   "agency": "Texas RRC",
+   "code": "16 TAC §3.13 (SWR 13)",
+   "title": "Casing, Cementing, Drilling, Well Control and Completion",
+   "tags": [
+    "well",
+    "casing",
+    "cement",
+    "drilling"
+   ],
+   "summary": "Requirements for surface/intermediate/production casing, cementing, drilling and well control and completion to protect usable-quality water.",
+   "use": "Mostly the operator/driller's scope; matters to pad builders for cellar, conductor and rig-move timing. Cite only if your contract work is affected by well-control requirements.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "rrc-og",
+   "src": "rrcog",
+   "agency": "Texas RRC",
+   "code": "Oil & Gas Division",
+   "title": "RRC oil and gas forms, permits and guidance",
+   "tags": [
+    "RRC",
+    "permit",
+    "forms"
+   ],
+   "summary": "Entry point for RRC oil and gas permits, forms, rules and guidance.",
+   "use": "Look up permits for SWD wells, pits and recycling facilities referenced in the bid documents.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "osha-1910-119",
+   "src": "osha119",
+   "agency": "OSHA",
+   "code": "29 CFR 1910.119",
+   "title": "Process Safety Management of Highly Hazardous Chemicals",
+   "tags": [
+    "PSM",
+    "contractor",
+    "hot work",
+    "MOC",
+    "PSSR"
+   ],
+   "summary": "Applies to processes at or above threshold quantities of listed chemicals, or 10,000 lb of flammable gas/liquid in one location (with exceptions; oil and gas well drilling/servicing and normally unoccupied remote facilities are excluded). Paragraph (h) sets contractor duties: train workers on process hazards and the emergency plan, document training, follow facility safe work practices, report hazards. Also hot work permits (k), management of change (l), pre-startup safety review (i).",
+   "use": "Plants, gas processing, compressor stations with PSM coverage: price orientation/training time, hot-work permits and MOC waits; owner-caused permit delays are CO/standby time.",
+   "types": [
+    "oilfield",
+    "mechanical"
+   ]
+  },
+  {
+   "id": "epa-spcc",
+   "src": "cfr112",
+   "agency": "EPA",
+   "code": "40 CFR 112",
+   "title": "Oil Pollution Prevention - SPCC",
+   "tags": [
+    "containment",
+    "berm",
+    "SPCC",
+    "tank battery",
+    "secondary containment"
+   ],
+   "summary": "Facilities storing oil above thresholds need an SPCC plan; secondary containment for bulk storage containers must hold the largest container plus sufficient freeboard for precipitation.",
+   "use": "Tank battery containment: the required capacity (largest tank + freeboard) comes from the SPCC plan/design. Use the Containment template to check the berm volume provided vs required.",
+   "types": [
+    "oilfield"
+   ]
+  },
+  {
+   "id": "asme-b311",
+   "src": "b311",
+   "agency": "ASME",
+   "code": "B31.1",
+   "title": "Power Piping",
+   "tags": [
+    "piping",
+    "power",
+    "boiler",
+    "hydrotest"
+   ],
+   "summary": "Piping for power plants, industrial plants, geothermal and central/district heating: design, materials, fabrication, erection, examination and testing (hydrostatic test generally at 1.5x design pressure - confirm against the edition and spec).",
+   "use": "Boiler external piping, steam and condensate systems. Test pressure, NDE extent and PWHT come from the spec/line list.",
+   "types": [
+    "mechanical"
+   ]
+  },
+  {
+   "id": "asme-b313",
+   "src": "b313",
+   "agency": "ASME",
+   "code": "B31.3",
+   "title": "Process Piping",
+   "tags": [
+    "piping",
+    "process",
+    "hydrotest",
+    "NDE",
+    "fluid service"
+   ],
+   "summary": "Piping in petroleum refineries, chemical, pharmaceutical, gas processing and related plants: fluid service categories (Normal, Category D, Category M, High Pressure), design, materials, fabrication, examination (random percentage by service) and leak testing (hydrostatic generally 1.5x design pressure adjusted for temperature - confirm against the edition).",
+   "use": "Process/plant piping: fluid service drives NDE percentage and test method; a change in fluid service or test medium after bid is a CO.",
+   "types": [
+    "mechanical",
+    "oilfield"
+   ]
+  },
+  {
+   "id": "asme-ix",
+   "src": "asme9",
+   "agency": "ASME",
+   "code": "BPVC Section IX",
+   "title": "Welding, Brazing and Fusing Qualifications",
+   "tags": [
+    "welding",
+    "WPS",
+    "PQR",
+    "welder qualification",
+    "fusion"
+   ],
+   "summary": "Rules for qualifying welding/brazing/fusing procedures (WPS/PQR) and welder/operator performance; includes plastic (HDPE) fusing qualification.",
+   "use": "Have qualified WPS/PQRs and welder continuity records before work; owner-required extra procedure qualifications are CO items.",
+   "types": [
+    "mechanical",
+    "oilfield"
+   ]
+  },
+  {
+   "id": "asme-b3610",
+   "src": "b3610",
+   "agency": "ASME",
+   "code": "B36.10",
+   "title": "Welded and Seamless Wrought Steel Pipe",
+   "tags": [
+    "pipe",
+    "schedule",
+    "wall thickness",
+    "dimensions"
+   ],
+   "summary": "Standard dimensions (OD and wall thickness by schedule/weight class) for steel pipe. The app's pipe table uses common OD/wall values for Sch 40 and Sch 80; verify against the line list.",
+   "use": "Pipe weight per foot = 10.69 x (OD - t) x t (carbon steel, lb/ft); hydrotest water volume from ID.",
+   "types": [
+    "mechanical",
+    "oilfield"
+   ]
+  },
+  {
+   "id": "aws-d11",
+   "src": "awsd11",
+   "agency": "AWS",
+   "code": "D1.1/D1.1M:2025",
+   "title": "Structural Welding Code - Steel",
+   "tags": [
+    "welding",
+    "structural",
+    "pipe rack",
+    "skid",
+    "supports"
+   ],
+   "summary": "Welding of carbon and low-alloy structural steel: procedure and welder qualification, fabrication, inspection and acceptance criteria.",
+   "use": "Pipe racks, skids, supports and platforms (structural welds), not pressure piping.",
+   "types": [
+    "mechanical",
+    "oilfield"
+   ]
+  },
+  {
+   "id": "mss-sp58",
+   "src": "mss58",
+   "agency": "MSS",
+   "code": "SP-58",
+   "title": "Pipe Hangers and Supports",
+   "tags": [
+    "supports",
+    "hangers",
+    "spacing"
+   ],
+   "summary": "Materials, design, manufacture, selection, application and installation of pipe hangers and supports (incorporates former SP-69, SP-77, SP-89, SP-90). The 2025 edition is current. Site blocks automated checks; link verified via search index.",
+   "use": "Support types and spacing: take spacing from the project spec/support drawings and enter it in the Pipe supports template; the app never assumes a spacing.",
+   "types": [
+    "mechanical"
+   ]
+  },
+  {
+   "id": "osha-1926-651",
+   "src": "osha651",
+   "agency": "OSHA",
+   "code": "29 CFR 1926.651",
+   "title": "Specific Excavation Requirements",
+   "tags": [
+    "trench",
+    "excavation",
+    "utilities",
+    "competent person",
+    "access"
+   ],
+   "summary": "Locate underground utilities before digging; means of egress in trenches 4 ft or deeper within 25 ft of lateral travel; hazardous atmosphere testing; water accumulation; spoil and equipment kept at least 2 ft back from the edge; daily inspections by a competent person.",
+   "use": "Daily log trench fields (competent person, inspections) and CO backup for unmarked utilities / water.",
+   "types": [
+    "underground",
+    "oilfield"
+   ]
+  },
+  {
+   "id": "osha-1926-652",
+   "src": "osha652",
+   "agency": "OSHA",
+   "code": "29 CFR 1926.652",
+   "title": "Requirements for Protective Systems (sloping, shoring, shields)",
+   "tags": [
+    "trench",
+    "shoring",
+    "trench box",
+    "sloping",
+    "Subpart P"
+   ],
+   "summary": "Cave-in protection is required unless the excavation is in stable rock or is under 5 ft deep with no indication of cave-in (competent person). Options: sloping/benching per Appendices A & B or tabulated data or PE design; shoring/shields per Appendices C/D, manufacturer's tabulated data, other tabulated data or PE design. Shields may sit up to 2 ft above the trench bottom only if rated for full depth and no soil loss.",
+   "use": "Trench safety selector in Takeoff. Excavations over 20 ft deep need PE-designed systems.",
+   "types": [
+    "underground",
+    "oilfield"
+   ]
+  },
+  {
+   "id": "osha-appb",
+   "src": "oshaB",
+   "agency": "OSHA",
+   "code": "1926 Subpart P App. B",
+   "title": "Sloping and Benching (max allowable slopes)",
+   "tags": [
+    "trench",
+    "slope",
+    "soil type"
+   ],
+   "summary": "Maximum allowable slopes for excavations under 20 ft: stable rock vertical; Type A 3/4H:1V; Type B 1H:1V; Type C 1-1/2H:1V (with short-term and benching variations in the appendix). Soil type is classified per Appendix A by a competent person.",
+   "use": "Sloped-trench excavation volume in the Trench template uses these slopes when no box is used.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "osha-appa",
+   "src": "oshaA",
+   "agency": "OSHA",
+   "code": "1926 Subpart P App. A",
+   "title": "Soil Classification",
+   "tags": [
+    "trench",
+    "soil type"
+   ],
+   "summary": "How a competent person classifies soil as stable rock, Type A, B or C using visual and manual tests.",
+   "use": "Soil type input for the trench selector; a geotech report differing from field conditions supports a DSC claim.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "tx-hs-756",
+   "src": "txhs756",
+   "agency": "Texas",
+   "code": "Health & Safety Code §756.022-.023",
+   "title": "Trench Safety (Subchapter C)",
+   "tags": [
+    "trench",
+    "pay item",
+    "Texas",
+    "political subdivision"
+   ],
+   "summary": "For trenches over 5 ft deep, bid documents and the contract must reference the OSHA trench standards, include any special shoring requirements, provide owner geotechnical info, and include a separate pay item for trench excavation safety protection paid by linear foot of trench (special shoring paid by square foot).",
+   "use": "Make sure the SOV has a separate \"Trench safety (LF)\" line; missing pay item = RFI/CO.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "tx-402",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Items 400-403",
+   "title": "Excavation and Backfill for Structures; Flowable Backfill; Trench Excavation Protection; Temporary Special Shoring",
+   "tags": [
+    "trench",
+    "backfill",
+    "flowable fill",
+    "shoring"
+   ],
+   "summary": "Item 400 structure excavation and backfill (measured within boundaries, no pay for swell or cave-ins); Item 401 flowable backfill by CY placed; Item 402 trench excavation protection measured by the foot along the trench where depth exceeds 5 ft (includes trench ends); Item 403 temporary special shoring by SF of the vertical face.",
+   "use": "TxDOT utility/drainage work: carry trench protection LF only where depth > 5 ft; shoring SF separately.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "tx-460-468",
+   "src": "txdot24",
+   "agency": "TxDOT",
+   "code": "Items 460-468",
+   "title": "Pipe culverts, box culverts, RCP, junction boxes/manholes/inlets, headwalls, SETs, thermoplastic pipe",
+   "tags": [
+    "storm",
+    "RCP",
+    "culvert",
+    "manhole",
+    "inlet",
+    "headwall"
+   ],
+   "summary": "Item 460 Corrugated Metal Pipe; 462 Concrete Box Culverts and Drains; 464 Reinforced Concrete Pipe; 465 Junction Boxes, Manholes and Inlets; 466 Headwalls and Wingwalls; 467 Safety End Treatment; 468 Thermoplastic Pipe Culverts and Drains (2024 book).",
+   "use": "Storm takeoff: pipe by size/class in LF, structures EA; cite the Item for measurement rules.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "awwa-c600",
+   "src": "awwa",
+   "agency": "AWWA",
+   "code": "C600-23",
+   "title": "Installation of Ductile-Iron Water Mains and Their Appurtenances",
+   "tags": [
+    "water",
+    "ductile iron",
+    "hydrostatic test",
+    "leakage",
+    "thrust"
+   ],
+   "summary": "Installation of DI water mains: handling, trenching, bedding, laying, joint assembly, thrust restraint, backfill, hydrostatic pressure and leakage testing (allowable leakage formula in the standard).",
+   "use": "Water main testing time and allowable leakage - use the project spec values.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "awwa-c900",
+   "src": "awwa",
+   "agency": "AWWA",
+   "code": "C900-22",
+   "title": "PVC Pressure Pipe and Fabricated Fittings, 4 in. through 60 in.",
+   "tags": [
+    "water",
+    "PVC",
+    "C900",
+    "pressure class"
+   ],
+   "summary": "PVC pressure pipe for water/wastewater/reclaimed water by DR and pressure class.",
+   "use": "Pipe takeoff by size and DR; installation per the spec (often AWWA C605 for PVC).",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "awwa-c151",
+   "src": "awwa",
+   "agency": "AWWA",
+   "code": "C151-23",
+   "title": "Ductile-Iron Pipe, Centrifugally Cast",
+   "tags": [
+    "water",
+    "ductile iron",
+    "pressure class"
+   ],
+   "summary": "Manufacture of DI pipe 3-64 in. for water, wastewater and reclaimed water, push-on or MJ joints.",
+   "use": "DI pipe takeoff by size and pressure class; lining/coating from spec.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "astm-d2321",
+   "src": "d2321",
+   "agency": "ASTM",
+   "code": "D2321",
+   "title": "Underground Installation of Thermoplastic Pipe (gravity)",
+   "tags": [
+    "sewer",
+    "storm",
+    "embedment",
+    "bedding",
+    "haunching",
+    "deflection"
+   ],
+   "summary": "Installation practice for flexible thermoplastic gravity pipe: embedment material classes, bedding, haunching and initial backfill zones, compaction, and deflection testing guidance.",
+   "use": "Embedment quantities: zone dimensions come from the project detail; the app asks for bedding depth and cover above crown - it never assumes them.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "astm-d3034",
+   "src": "d3034",
+   "agency": "ASTM",
+   "code": "D3034",
+   "title": "Type PSM PVC Sewer Pipe and Fittings",
+   "tags": [
+    "sewer",
+    "PVC",
+    "SDR 35",
+    "SDR 26"
+   ],
+   "summary": "PVC gravity sewer pipe and fittings (commonly 4-15 in.), SDR 35 / SDR 26.",
+   "use": "Sanitary pipe by size and SDR; mandrel testing per spec/TCEQ.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "astm-f679",
+   "src": "f679",
+   "agency": "ASTM",
+   "code": "F679",
+   "title": "PVC Large-Diameter Plastic Gravity Sewer Pipe and Fittings",
+   "tags": [
+    "sewer",
+    "PVC",
+    "large diameter"
+   ],
+   "summary": "Large-diameter PVC gravity sewer pipe (18 in. and larger).",
+   "use": "Large sanitary trunk lines by size and wall class.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "tceq-217",
+   "src": "tac217",
+   "agency": "TCEQ",
+   "code": "30 TAC Ch. 217",
+   "title": "Design Criteria for Domestic Wastewater Systems",
+   "tags": [
+    "sewer",
+    "manhole",
+    "testing",
+    "mandrel",
+    "air test",
+    "separation"
+   ],
+   "summary": "Texas design and construction criteria for collection systems and treatment: pipe materials, embedment, manholes, testing of gravity lines (low-pressure air or infiltration/exfiltration, deflection/mandrel) and manhole testing, water/wastewater separation.",
+   "use": "Sanitary testing items (air, mandrel, manhole vacuum) and CCTV; cite when the owner adds tests beyond the contract.",
+   "types": [
+    "underground"
+   ]
+  },
+  {
+   "id": "tceq-290",
+   "src": "tac290",
+   "agency": "TCEQ",
+   "code": "30 TAC Ch. 290",
+   "title": "Public Drinking Water",
+   "tags": [
+    "water",
+    "disinfection",
+    "separation",
+    "backflow"
+   ],
+   "summary": "Rules for public water systems, including distribution design and construction, separation distances from wastewater lines, disinfection and bacteriological sampling before placing mains in service.",
+   "use": "Water main disinfection/bac-T time and separation conflicts (RFI/CO when plans violate separation).",
+   "types": [
+    "underground"
+   ]
+  }
+ ]
+}

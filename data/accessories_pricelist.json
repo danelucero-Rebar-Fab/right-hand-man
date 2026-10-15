@@ -1,0 +1,816 @@
+{
+"src": "/workspace/rebarfab/standards/accessories_pricelist.xlsx (Estimate Sheet accessories, exported to accessories_pricelist.csv)",
+"rule": "sell = cost x (1 + item markup %). Never apply the rebar markup to accessories (competitive_quote.md S5).",
+"items": [
+{
+"row": 57,
+"section": "Concrete Accessories",
+"item": "Pier Bolster - 3\"",
+"unit": "Each",
+"cost": 3.45,
+"markupPct": 50.0,
+"vendor": "regal price",
+"note": "Round these up (they come in 50pc boxes)"
+},
+{
+"row": 58,
+"section": "Concrete Accessories",
+"item": "Pier Wheel - 6\"",
+"unit": "Each",
+"cost": 1.44,
+"markupPct": 50.0,
+"vendor": "regal price",
+"note": "Round these up (they come in 50pc boxes)"
+},
+{
+"row": 59,
+"section": "Concrete Accessories",
+"item": "Dobie Bricks",
+"unit": "Each",
+"cost": 0.33,
+"markupPct": 50.0,
+"vendor": "regal price",
+"note": "2240 = pallet"
+},
+{
+"row": 60,
+"section": "Concrete Accessories",
+"item": "Tie Wire",
+"unit": "Box",
+"cost": 69.0,
+"markupPct": 30.0,
+"vendor": "regal price",
+"note": "48 = pallet"
+},
+{
+"row": 61,
+"section": "Concrete Accessories",
+"item": "Poly - 6 Mil 20'x100' - BLACK",
+"unit": "Rolls",
+"cost": 57.5,
+"markupPct": 30.0,
+"vendor": "regal price",
+"note": "Poly - do not forget to supply tape as well  Poly tape is 1.5 times the qty of poly rolls  Use the correct tape for type of roll"
+},
+{
+"row": 62,
+"section": "Concrete Accessories",
+"item": "Poly Tape - 2\"",
+"unit": "Rolls",
+"cost": 5.75,
+"markupPct": 100.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 63,
+"section": "Concrete Accessories",
+"item": "Poly - 10 Mil 20'x100' - BLACK",
+"unit": "Rolls",
+"cost": 92.0,
+"markupPct": 30.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 64,
+"section": "Concrete Accessories",
+"item": "Poly Tape - 2\"",
+"unit": "Rolls",
+"cost": 5.75,
+"markupPct": 100.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 65,
+"section": "Concrete Accessories",
+"item": "Poly - 6 Mil 20'x100' - BLACK",
+"unit": "Rolls",
+"cost": 56.35,
+"markupPct": 30.0,
+"vendor": "Revolution price",
+"note": ""
+},
+{
+"row": 66,
+"section": "Concrete Accessories",
+"item": "Poly Tape - 4\" - VaporPro",
+"unit": "Rolls",
+"cost": 14.57,
+"markupPct": 30.0,
+"vendor": "Revolution price",
+"note": ""
+},
+{
+"row": 67,
+"section": "Concrete Accessories",
+"item": "Poly - 10 Mil 20'x100' - BLACK",
+"unit": "Rolls",
+"cost": 93.92,
+"markupPct": 30.0,
+"vendor": "Revolution price",
+"note": ""
+},
+{
+"row": 68,
+"section": "Concrete Accessories",
+"item": "Poly Tape - 4\" - VaporPro",
+"unit": "Rolls",
+"cost": 14.57,
+"markupPct": 30.0,
+"vendor": "Revolution price",
+"note": ""
+},
+{
+"row": 69,
+"section": "Concrete Accessories",
+"item": "10 Mil 14'x210' - VaporPro Vapor Barrier - GREEN",
+"unit": "Rolls",
+"cost": 287.14,
+"markupPct": 30.0,
+"vendor": "Revolution price",
+"note": ""
+},
+{
+"row": 70,
+"section": "Concrete Accessories",
+"item": "Poly Tape - 4\" - VaporPro",
+"unit": "Rolls",
+"cost": 14.57,
+"markupPct": 30.0,
+"vendor": "Revolution price",
+"note": ""
+},
+{
+"row": 71,
+"section": "Concrete Accessories",
+"item": "15 Mil 14'x140' - VaporPro Vapor Barrier - GREEN",
+"unit": "Rolls",
+"cost": 287.14,
+"markupPct": 30.0,
+"vendor": "Revolution price",
+"note": ""
+},
+{
+"row": 72,
+"section": "Concrete Accessories",
+"item": "Poly Tape - 4\" - VaporPro",
+"unit": "Rolls",
+"cost": 14.57,
+"markupPct": 30.0,
+"vendor": "Revolution price",
+"note": ""
+},
+{
+"row": 73,
+"section": "Concrete Accessories",
+"item": "Poly - 10 Mil 14\u2019x210\u2019 - STEGO",
+"unit": "Rolls",
+"cost": 324.0,
+"markupPct": 30.0,
+"vendor": "Post tension price",
+"note": ""
+},
+{
+"row": 74,
+"section": "Concrete Accessories",
+"item": "Poly Tape - Stego",
+"unit": "Rolls",
+"cost": 28.24,
+"markupPct": 30.0,
+"vendor": "Post tension price",
+"note": ""
+},
+{
+"row": 75,
+"section": "Concrete Accessories",
+"item": "Poly - 15 Mil 14'x140' - STEGO",
+"unit": "Rolls",
+"cost": 383.0,
+"markupPct": 30.0,
+"vendor": "Post tension price",
+"note": ""
+},
+{
+"row": 76,
+"section": "Concrete Accessories",
+"item": "Poly Tape - Stego",
+"unit": "Rolls",
+"cost": 28.24,
+"markupPct": 30.0,
+"vendor": "Post tension price",
+"note": ""
+},
+{
+"row": 77,
+"section": "Concrete Accessories",
+"item": "Poly - 20 Mil 14\u2019x105\u2019 - STEGO",
+"unit": "Rolls",
+"cost": 489.0,
+"markupPct": 30.0,
+"vendor": "Post tension price",
+"note": ""
+},
+{
+"row": 78,
+"section": "Concrete Accessories",
+"item": "Poly Tape - Stego",
+"unit": "Rolls",
+"cost": 28.24,
+"markupPct": 30.0,
+"vendor": "Post tension price",
+"note": ""
+},
+{
+"row": 79,
+"section": "Concrete Accessories",
+"item": "Plastic chairs - 2 1/4\" (500pcs/bag)",
+"unit": "Bag",
+"cost": 23.0,
+"markupPct": 30.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 80,
+"section": "Concrete Accessories",
+"item": "Plastic chairs - 3 1/4\" (500pcs/bag)",
+"unit": "Bag",
+"cost": 23.0,
+"markupPct": 30.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 81,
+"section": "Concrete Accessories",
+"item": "Plastic chairs - 4 1/4\" (150pcs/bag)",
+"unit": "Bag",
+"cost": 34.5,
+"markupPct": 50.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 82,
+"section": "Concrete Accessories",
+"item": "Plastic chairs - 5 1/4\" (150pcs/bag)",
+"unit": "Bag",
+"cost": 69.0,
+"markupPct": 30.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 83,
+"section": "Concrete Accessories",
+"item": "Plastic chairs - 6 1/4\"  (150pcs/bag)",
+"unit": "Bag",
+"cost": 103.5,
+"markupPct": 30.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 84,
+"section": "Concrete Accessories",
+"item": "Tuff Chair - 1 1/2\"",
+"unit": "Each",
+"cost": 0.2412,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 85,
+"section": "Concrete Accessories",
+"item": "Tuff Chair - 2\"",
+"unit": "Each",
+"cost": 0.26,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 86,
+"section": "Concrete Accessories",
+"item": "Tuff Chair - 3\"",
+"unit": "Each",
+"cost": 0.38,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 87,
+"section": "Concrete Accessories",
+"item": "Tuff Chair - 4 1/2\"",
+"unit": "Each",
+"cost": 0.5323,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 88,
+"section": "Concrete Accessories",
+"item": "Tuff Chair - 5 1/2\"",
+"unit": "Each",
+"cost": 0.72,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 89,
+"section": "Concrete Accessories",
+"item": "Tuff Chair - 5 3/4\"",
+"unit": "Each",
+"cost": 0.77,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 90,
+"section": "Concrete Accessories",
+"item": "Tuff Chair - 6\"",
+"unit": "Each",
+"cost": 0.8371,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 91,
+"section": "Concrete Accessories",
+"item": "Tuff Chair - 6 1/4\"",
+"unit": "Each",
+"cost": 0.8613,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 92,
+"section": "Concrete Accessories",
+"item": "Tuff Chair - 7 3/4\"",
+"unit": "Each",
+"cost": 0.9761,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 93,
+"section": "Concrete Accessories",
+"item": "Tuff Chair - 8\"",
+"unit": "Each",
+"cost": 0.9991,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 94,
+"section": "Concrete Accessories",
+"item": "Tuff Chair - 8 1/4\"",
+"unit": "Each",
+"cost": 1.022,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 95,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 2\"",
+"unit": "Each",
+"cost": 2.8499999999999996,
+"markupPct": 50.0,
+"vendor": "LEVIAT PRICE",
+"note": "when we quote CHCU from Leviat, we have to round up to a minimum of\u00a020pcs\u00a05ft\u00a0long"
+},
+{
+"row": 96,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 2 1/2\"",
+"unit": "Each",
+"cost": 2.8000000000000003,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 97,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 3 1/2\"",
+"unit": "Each",
+"cost": 4.15,
+"markupPct": 50.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 98,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 3 3/4\"",
+"unit": "Each",
+"cost": 4.2985,
+"markupPct": 50.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 99,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 4 1/4\"",
+"unit": "Each",
+"cost": 4.0485,
+"markupPct": 50.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 100,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 4\"",
+"unit": "Each",
+"cost": 2.88,
+"markupPct": 50.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 101,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 5\"",
+"unit": "Each",
+"cost": 3.5999999999999996,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 102,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 5 1/2\"",
+"unit": "Each",
+"cost": 3.8,
+"markupPct": 50.0,
+"vendor": "LEVIAT PRICE",
+"note": ""
+},
+{
+"row": 103,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 6 1/2\"",
+"unit": "Each",
+"cost": 4.85,
+"markupPct": 50.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 104,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 6\"",
+"unit": "Each",
+"cost": 5.0705,
+"markupPct": 50.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 105,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 7 3/4\"",
+"unit": "Each",
+"cost": 5.873,
+"markupPct": 50.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 106,
+"section": "Concrete Accessories",
+"item": "Continuous High Chair Upper - 5' x 8\"",
+"unit": "Each",
+"cost": 6.25,
+"markupPct": 30.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 107,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 0.75\"",
+"unit": "Each",
+"cost": 2.02,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 108,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 1\"",
+"unit": "Each",
+"cost": 2.59,
+"markupPct": 50.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 109,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 1.25\"",
+"unit": "Each",
+"cost": 2.15,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 110,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 1.5\"",
+"unit": "Each",
+"cost": 2.05,
+"markupPct": 50.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 111,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 1.75\"",
+"unit": "Each",
+"cost": 2.28,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 112,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 2\"",
+"unit": "Each",
+"cost": 2.93,
+"markupPct": 50.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 113,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 2.25\"",
+"unit": "Each",
+"cost": 2.41,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 114,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 2.5\"",
+"unit": "Each",
+"cost": 2.47,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 115,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 2.75\"",
+"unit": "Each",
+"cost": 2.54,
+"markupPct": 50.0,
+"vendor": "leviat price",
+"note": ""
+},
+{
+"row": 116,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 3\"",
+"unit": "Each",
+"cost": 3.22,
+"markupPct": 50.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 117,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 3.5\"",
+"unit": "Each",
+"cost": 2.05,
+"markupPct": 50.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 118,
+"section": "Concrete Accessories",
+"item": "Slab Bolster w Runner - 5' x 4\"",
+"unit": "Each",
+"cost": 3.82,
+"markupPct": 50.0,
+"vendor": "regal price",
+"note": ""
+},
+{
+"row": 119,
+"section": "Concrete Accessories",
+"item": "Dowel Basket (12')",
+"unit": "LFT",
+"cost": 2.27,
+"markupPct": 50.0,
+"vendor": "EAL price",
+"note": ""
+},
+{
+"row": 120,
+"section": "Concrete Accessories",
+"item": "Bricks - Spacer (4x4x8)",
+"unit": "Each",
+"cost": 1.79,
+"markupPct": 15.0,
+"vendor": "American MAATCO price",
+"note": ""
+},
+{
+"row": 122,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "Tiltup Wall Panel shop drawings",
+"unit": "each",
+"cost": 64.0,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 123,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "Tiltup Wall Panel lift & brace drawings",
+"unit": "each",
+"cost": 64.0,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 124,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "8\" lift inserts",
+"unit": "each",
+"cost": 9.6,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 125,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "8\" brace inserts",
+"unit": "each",
+"cost": 6.4,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 126,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "10\" lift inserts",
+"unit": "each",
+"cost": 10.88,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 127,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "10\" brace inserts",
+"unit": "each",
+"cost": 6.76,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 128,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "lift insert patch caps",
+"unit": "each",
+"cost": 2.45,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 129,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "brace insert patch caps",
+"unit": "each",
+"cost": 1.15,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 130,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "Shim Packs",
+"unit": "each",
+"cost": 2.65,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 131,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "Titan Bolts",
+"unit": "each",
+"cost": 6.3,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 132,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "5x7 edge form brackets",
+"unit": "each",
+"cost": 2.85,
+"markupPct": 20.0,
+"vendor": "this is linear ft /2",
+"note": ""
+},
+{
+"row": 133,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "3/4\" Chamfer",
+"unit": "ft",
+"cost": 0.09,
+"markupPct": 20.0,
+"vendor": "this is linear ft *8",
+"note": ""
+},
+{
+"row": 134,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "adhesive for edge form brackets",
+"unit": "each",
+"cost": 10.0,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 135,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "emergency lift plates (RENTAL)",
+"unit": "each",
+"cost": 45.0,
+"markupPct": 20.0,
+"vendor": "always have 2 per job",
+"note": ""
+},
+{
+"row": 136,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "4\" Brace Bolt (RENTAL)",
+"unit": "each",
+"cost": 2.3,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 137,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "22Kp Ring Clutch (RENTAL)",
+"unit": "each",
+"cost": 45.0,
+"markupPct": 20.0,
+"vendor": "",
+"note": ""
+},
+{
+"row": 138,
+"section": "Tilt-up Wall Panel Accessories",
+"item": "Sign and Seal Charges",
+"unit": "each",
+"cost": 650.0,
+"markupPct": 5.0,
+"vendor": "always have 1 per job",
+"note": ""
+}
+]
+}

@@ -1,0 +1,5 @@
+line,description,unit,material,labor,equipment,crew,daily_output,labor_hours,source
+EX-0001,EXAMPLE ONLY - Reinforcing bar #4-#7 placed (made-up number),LB,0.00,0.00,0.00,EX-crew-4,0,0,EXAMPLE
+EX-0002,EXAMPLE ONLY - CIP footing concrete placed (made-up number),CY,1.00,1.00,1.00,EX-crew-C,10,1.00,EXAMPLE
+EX-0003,EXAMPLE ONLY - Trench excavation 4-6 ft (made-up number),BCY,0.00,1.00,1.00,EX-crew-B,10,1.00,EXAMPLE
+EX-0004,EXAMPLE ONLY - CMU 8 in wall (made-up number),SF,1.00,1.00,0.00,EX-crew-D,10,1.00,EXAMPLE

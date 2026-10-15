@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" fill="#0b1f3a"/>
+<g transform="translate(256 256) scale(0.72) translate(-256 -256)">
+  <g transform="translate(256 236)">
+    <path d="M-150 -150 h70 v230 h230 v70 h-300 z" fill="#f59e0b"/>
+    <g stroke="#0b1f3a" stroke-width="10" stroke-linecap="square"><path d="M-80 -110 h-28M-80 -70 h-18M-80 -30 h-28M-80 10 h-18M-80 50 h-28"/><path d="M-40 80 v28M0 80 v18M40 80 v28M80 80 v18M120 80 v28"/></g>
+    <path d="M-36 -6 l52 52 l112 -132" fill="none" stroke="#ffffff" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="256" y="452" text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-weight="900" font-size="78" fill="#ffffff" letter-spacing="6">RHM</text></g></svg>

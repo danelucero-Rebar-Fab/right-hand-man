@@ -1,0 +1,6 @@
+line,description,unit,material,labor,equipment,crew,daily_output,labor_hours,source
+RF-FAB,Rebar fabricated (Rebar-Fab quote rate),LB,0.72,0,0,,,,Joe
+RF-STR,Rebar straight (Rebar-Fab quote rate),LB,0.64,0,0,,,,Joe
+RF-EPX,Rebar epoxy coated (Rebar-Fab quote rate),LB,0.82,0,0,,,,Joe
+RF-TRK,Trucking per load (ROUNDUP(tons/24) loads),LOAD,1200,0,0,,,,Joe
+RF-SHOP,Shop drawings per fabricated ton,TON,35,0,0,,,,Joe

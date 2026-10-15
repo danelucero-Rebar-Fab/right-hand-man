@@ -1,0 +1,19 @@
+{
+  "name": "Right Hand Man",
+  "short_name": "Right Hand Man",
+  "description": "Field and project management: plans, takeoff, pay apps, daily logs, change orders and shop drawings. Designed by Joe Dane Lucero P.E.",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b1f3a",
+  "theme_color": "#0b1f3a",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    {"src": "icons/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}
